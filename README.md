@@ -32,15 +32,6 @@ Edit
 pip install kagglehub kaggle transformers sentencepiece evaluate jiwer datasets accelerate matplotlib protobuf==3.20.1 tensorboard
 
 
-🧰 File Structure
-
-├── cropped_imgs/             # Extracted and preprocessed images
-├── labels.txt                # Full labels from tfrecords
-├── train_labels.txt          # Train split
-├── val_labels.txt            # Validation split
-├── trocr-imgur5k-final/      # Saved fine-tuned model and processor
-├── Yash_Kumar_OCR_Code.ipynb # Colab-based training pipeline
-🧪 Training Details
 Base model: microsoft/trocr-small-handwritten
 
 Batch size: 8
